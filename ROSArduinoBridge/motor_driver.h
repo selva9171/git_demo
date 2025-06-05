@@ -3,12 +3,12 @@
    *************************************************************/
 
 #ifdef L298_MOTOR_DRIVER
-  #define RIGHT_MOTOR_BACKWARD 5
-  #define LEFT_MOTOR_BACKWARD  6
-  #define RIGHT_MOTOR_FORWARD  9
-  #define LEFT_MOTOR_FORWARD   10
-  #define RIGHT_MOTOR_ENABLE 12
-  #define LEFT_MOTOR_ENABLE 13
+  #define RIGHT_MOTOR_BACKWARD 14
+  #define LEFT_MOTOR_BACKWARD  26
+  #define RIGHT_MOTOR_FORWARD  27
+  #define LEFT_MOTOR_FORWARD   33
+  #define RIGHT_MOTOR_ENABLE   25
+  #define LEFT_MOTOR_ENABLE    32
 #endif
 
 #ifdef CYTRON_MDD3A
